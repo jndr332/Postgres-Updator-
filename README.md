@@ -15,6 +15,7 @@ Para un sola base de datos
 - El script debe estar alojado en `/var/lib/pgsql/`.
 - Debe ejecutarse como root.
 - Debes tener instalado Postgres 9.6 y Postgres 15.
+- Verificar la ruta de las versiones de Postgres, en este caso fue /var/lib/pgsql
 
 ## Uso
 
