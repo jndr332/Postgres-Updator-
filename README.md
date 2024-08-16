@@ -6,7 +6,6 @@ Este script automatiza la actualización de Postgres, desde la versión 9.6 a la
 - Inicializa el nuevo clúster de Postgres.
 - Realiza un `pg_upgrade` desde Postgres 9.6 a Postgres 15.
 - Reindexa la base de datos migrada.
-- Probado en Centos 7
 
 ## Requisitos
 - Verificar la ruta de las versiones de Postgres
