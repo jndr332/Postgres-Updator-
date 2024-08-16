@@ -14,11 +14,11 @@ Este script automatiza la actualización de Postgres, desde la versión 9.6 a la
 - Debe tener ya instalado dos versiones de postgres, la version antigua y la nueva. 
 
 ## Uso
-0. Hacer un backup o snapshot antes de inciar 
-1. Descarga el archivo
-2. Cambia el propietario y grupo:
+0. Realice un backup o snapshot antes de inciar 
+1. Descargue el script
+2. Cambie el propietario y el grupo:
    ```bash
    sudo chown postgres:postgres /var/lib/pgsql/PostgresUpdator.sh
-3. Ejecuta.
+3. Ejecute.
    ```bash
    [root@localhost ~]# bash PostgresUpdator.sh 
